@@ -25,6 +25,7 @@
     '/solutions/charities':          'page-solutions-charities',
     '/contact':                   'page-contact',
     '/privacy-policy':            'page-privacy-policy',
+    '/services/ai-computer-use':  'page-ai-computer-use',
   };
 
   /* ── Router ── */
