@@ -476,10 +476,10 @@
   margin-bottom: var(--space-4);
   color: white;
 }
-.employee-avatar.clara { background: linear-gradient(135deg, #7C3AED, #A78BFA); }
-.employee-avatar.marcus { background: linear-gradient(135deg, #6366F1, #818CF8); }
-.employee-avatar.sophia { background: linear-gradient(135deg, #8B5CF6, #C084FC); }
-.employee-avatar.james { background: linear-gradient(135deg, #6B21A8, #7C3AED); }
+.employee-avatar.layla { background: linear-gradient(135deg, #7C3AED, #A78BFA); }
+.employee-avatar.mikaeel { background: linear-gradient(135deg, #6366F1, #818CF8); }
+.employee-avatar.safiyyah { background: linear-gradient(135deg, #8B5CF6, #C084FC); }
+.employee-avatar.jamal { background: linear-gradient(135deg, #6B21A8, #7C3AED); }
 
 .employee-card h3 {
   font-size: var(--text-xl);

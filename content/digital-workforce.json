@@ -3,9 +3,9 @@
   "page_subtitle": "Four AI Employees, One Ethical Framework, Unlimited Growth Potential",
   "employees": [
     {
-      "name": "Clara",
+      "name": "Layla",
       "role": "Communications Director",
-      "description": "Clara manages all client communications, email campaigns, social media responses, and brand voice consistency. She ensures every message is on-brand, timely, and ethically governed.",
+      "description": "Layla manages all client communications, email campaigns, social media responses, and brand voice consistency. She ensures every message is on-brand, timely, and ethically governed.",
       "capabilities": [
         {
           "capability": "Email campaign management & A/B testing"
@@ -25,9 +25,9 @@
       ]
     },
     {
-      "name": "Marcus",
+      "name": "Mikaeel",
       "role": "Marketing Strategist",
-      "description": "Marcus drives growth strategy, SEO optimisation, content marketing, and competitive intelligence. He identifies opportunities and executes data-driven marketing campaigns.",
+      "description": "Mikaeel drives growth strategy, SEO optimisation, content marketing, and competitive intelligence. He identifies opportunities and executes data-driven marketing campaigns.",
       "capabilities": [
         {
           "capability": "SEO audit & optimisation strategy"
@@ -47,9 +47,9 @@
       ]
     },
     {
-      "name": "Sophia",
+      "name": "Safiyyah",
       "role": "Operations Manager",
-      "description": "Sophia streamlines your operations — from project management to workflow automation. She keeps everything running smoothly and identifies process improvements.",
+      "description": "Safiyyah streamlines your operations — from project management to workflow automation. She keeps everything running smoothly and identifies process improvements.",
       "capabilities": [
         {
           "capability": "Workflow automation & process design"
@@ -69,9 +69,9 @@
       ]
     },
     {
-      "name": "James",
+      "name": "Jamal",
       "role": "Intelligence Analyst",
-      "description": "James is your data scientist. He analyses market trends, customer behaviour, and business performance to deliver actionable intelligence that drives decisions.",
+      "description": "Jamal is your data scientist. He analyses market trends, customer behaviour, and business performance to deliver actionable intelligence that drives decisions.",
       "capabilities": [
         {
           "capability": "Market trend analysis & forecasting"
