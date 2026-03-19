@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: wearenumu/website
+  repo: numukb-creator/wearenumu-website
   branch: main
   base_url: https://decap-oauth.netlify.app
 
