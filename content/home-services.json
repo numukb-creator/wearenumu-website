@@ -1,0 +1,31 @@
+{
+  "section_eyebrow": "WHAT WE DO",
+  "section_title": "Your Growth, Ethically Governed",
+  "section_description": "From intelligence audits to full AI workforce deployment — every service is filtered through our Ethics Gate™ framework.",
+  "services": [
+    {
+      "icon": "🔍",
+      "title": "Growth Intelligence Audit™",
+      "description": "A deep-dive into your operations revealing exactly where AI can save time, cut costs, and accelerate growth — with a clear implementation roadmap.",
+      "link_url": "#/audit"
+    },
+    {
+      "icon": "⚖️",
+      "title": "Ethics Gate™ Governance",
+      "description": "Our proprietary three-pillar framework (Sidq, Amanah, 'Adl) ensures every AI decision meets the highest ethical standards.",
+      "link_url": "#/ethics-gate"
+    },
+    {
+      "icon": "🤖",
+      "title": "AI Workforce Implementation",
+      "description": "Deploy a collaborative team of digital employees — Clara, Marcus, Sophia, and James — trained for your specific business needs.",
+      "link_url": "#/services"
+    },
+    {
+      "icon": "📊",
+      "title": "Managed AI Workforce",
+      "description": "Ongoing management, optimisation, and governance of your AI workforce with quarterly Ethics Gate™ reviews.",
+      "link_url": "#/services"
+    }
+  ]
+}

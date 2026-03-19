@@ -1,0 +1,33 @@
+{
+  "industry": "Charities & Non-Profits",
+  "headline": "Maximise Impact, Minimise Admin",
+  "description": "Free your team from administrative burden so they can focus on what matters — your mission. AI employees handle donor management, reporting, and communications.",
+  "pain_points": [
+    {
+      "point": "Limited budgets stretch small teams thin"
+    },
+    {
+      "point": "Grant reporting is time-consuming"
+    },
+    {
+      "point": "Donor communication lacks personalisation"
+    },
+    {
+      "point": "Impact measurement is difficult to maintain"
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Donor Relationship Management",
+      "description": "Clara manages personalised donor communications, thank-you sequences, and engagement campaigns automatically."
+    },
+    {
+      "title": "Grant & Impact Reporting",
+      "description": "Sophia compiles grant reports, tracks KPIs, and generates impact summaries — saving hours of admin each week."
+    },
+    {
+      "title": "Ethical AI at Reduced Rates",
+      "description": "We offer preferential pricing for registered charities because ethical AI should be accessible to those doing the most good."
+    }
+  ]
+}

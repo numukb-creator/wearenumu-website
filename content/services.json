@@ -1,0 +1,96 @@
+{
+  "page_title": "Services & Pricing",
+  "page_subtitle": "From Discovery to Full AI Workforce — Choose Your Growth Path",
+  "packages": [
+    {
+      "name": "Starter",
+      "price": "£8,000",
+      "description": "Perfect for SMEs ready to deploy their first digital employee. Single-agent implementation with Ethics Gate™ governance.",
+      "features": [
+        {
+          "feature": "1 Digital Employee deployed"
+        },
+        {
+          "feature": "Core workflow automation"
+        },
+        {
+          "feature": "Ethics Gate™ governance setup"
+        },
+        {
+          "feature": "30-day onboarding & training"
+        },
+        {
+          "feature": "Monthly performance reports"
+        },
+        {
+          "feature": "Email support"
+        }
+      ],
+      "cta_text": "Get Started",
+      "highlighted": false
+    },
+    {
+      "name": "Growth",
+      "price": "£18,000",
+      "description": "Our most popular package. Deploy a collaborative team of digital employees with full Ethics Gate™ governance.",
+      "features": [
+        {
+          "feature": "4 Digital Employees (Clara, Marcus, Sophia, James)"
+        },
+        {
+          "feature": "Multi-agent collaboration workflows"
+        },
+        {
+          "feature": "Full Ethics Gate™ governance"
+        },
+        {
+          "feature": "60-day implementation sprint"
+        },
+        {
+          "feature": "Weekly optimisation calls"
+        },
+        {
+          "feature": "Priority support"
+        },
+        {
+          "feature": "Quarterly Ethics Gate™ review"
+        }
+      ],
+      "cta_text": "Most Popular — Book Now",
+      "highlighted": true
+    },
+    {
+      "name": "Enterprise",
+      "price": "£45,000",
+      "description": "Full AI workforce transformation. Custom agents, advanced governance, and dedicated account management.",
+      "features": [
+        {
+          "feature": "Unlimited Digital Employees"
+        },
+        {
+          "feature": "Custom agent development"
+        },
+        {
+          "feature": "Advanced Ethics Gate™ with custom pillars"
+        },
+        {
+          "feature": "90-day transformation programme"
+        },
+        {
+          "feature": "Dedicated account manager"
+        },
+        {
+          "feature": "24/7 priority support"
+        },
+        {
+          "feature": "Monthly Ethics Gate™ audits"
+        },
+        {
+          "feature": "Board-ready reporting"
+        }
+      ],
+      "cta_text": "Contact for Enterprise",
+      "highlighted": false
+    }
+  ]
+}

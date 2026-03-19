@@ -1,0 +1,33 @@
+{
+  "industry": "Law Firms",
+  "headline": "Enhance Legal Services with Ethical AI",
+  "description": "Deploy AI that handles document review, legal research, and client intake — with Ethics Gate™ ensuring confidentiality and accuracy.",
+  "pain_points": [
+    {
+      "point": "Document review is time-intensive and repetitive"
+    },
+    {
+      "point": "Legal research takes hours of billable time"
+    },
+    {
+      "point": "Client intake and onboarding is manual"
+    },
+    {
+      "point": "Confidentiality concerns limit AI adoption"
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Intelligent Document Review",
+      "description": "James analyses contracts, identifies key clauses, and flags potential issues — reducing review time by up to 60%."
+    },
+    {
+      "title": "Legal Research Acceleration",
+      "description": "Comprehensive case law research and precedent analysis delivered in minutes, not hours."
+    },
+    {
+      "title": "Ethics Gate™ Confidentiality",
+      "description": "Our Amanah pillar ensures attorney-client privilege is maintained at every stage of AI processing."
+    }
+  ]
+}

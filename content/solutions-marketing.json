@@ -1,0 +1,33 @@
+{
+  "industry": "Marketing Agencies",
+  "headline": "Scale Your Agency Without Scaling Your Headcount",
+  "description": "Deploy AI employees that handle campaign execution, reporting, and client communication — freeing your team to focus on strategy and creative.",
+  "pain_points": [
+    {
+      "point": "Client reporting takes hours every week"
+    },
+    {
+      "point": "Campaign execution bottlenecks limit growth"
+    },
+    {
+      "point": "Talent costs are rising faster than margins"
+    },
+    {
+      "point": "Repetitive tasks drain creative energy"
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Automated Campaign Reporting",
+      "description": "Marcus generates comprehensive campaign reports automatically, pulling data from all platforms and delivering insights, not just numbers."
+    },
+    {
+      "title": "Content Production at Scale",
+      "description": "Clara drafts, edits, and schedules content across channels — maintaining your clients' brand voice while multiplying your output."
+    },
+    {
+      "title": "Client Communication Management",
+      "description": "Never miss a client update. Clara manages communication workflows, ensuring timely, professional touchpoints throughout the relationship."
+    }
+  ]
+}

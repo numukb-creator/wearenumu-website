@@ -1,0 +1,94 @@
+{
+  "page_title": "Meet Your Digital Workforce",
+  "page_subtitle": "Four AI Employees, One Ethical Framework, Unlimited Growth Potential",
+  "employees": [
+    {
+      "name": "Clara",
+      "role": "Communications Director",
+      "description": "Clara manages all client communications, email campaigns, social media responses, and brand voice consistency. She ensures every message is on-brand, timely, and ethically governed.",
+      "capabilities": [
+        {
+          "capability": "Email campaign management & A/B testing"
+        },
+        {
+          "capability": "Social media content scheduling & engagement"
+        },
+        {
+          "capability": "Client communication drafting & response"
+        },
+        {
+          "capability": "Brand voice consistency monitoring"
+        },
+        {
+          "capability": "Multi-channel campaign coordination"
+        }
+      ]
+    },
+    {
+      "name": "Marcus",
+      "role": "Marketing Strategist",
+      "description": "Marcus drives growth strategy, SEO optimisation, content marketing, and competitive intelligence. He identifies opportunities and executes data-driven marketing campaigns.",
+      "capabilities": [
+        {
+          "capability": "SEO audit & optimisation strategy"
+        },
+        {
+          "capability": "Content marketing planning & execution"
+        },
+        {
+          "capability": "Competitive intelligence & market research"
+        },
+        {
+          "capability": "PPC campaign management & optimisation"
+        },
+        {
+          "capability": "Marketing analytics & ROI reporting"
+        }
+      ]
+    },
+    {
+      "name": "Sophia",
+      "role": "Operations Manager",
+      "description": "Sophia streamlines your operations — from project management to workflow automation. She keeps everything running smoothly and identifies process improvements.",
+      "capabilities": [
+        {
+          "capability": "Workflow automation & process design"
+        },
+        {
+          "capability": "Project management & task coordination"
+        },
+        {
+          "capability": "Client onboarding & lifecycle management"
+        },
+        {
+          "capability": "Document processing & data entry automation"
+        },
+        {
+          "capability": "Operational reporting & KPI tracking"
+        }
+      ]
+    },
+    {
+      "name": "James",
+      "role": "Intelligence Analyst",
+      "description": "James is your data scientist. He analyses market trends, customer behaviour, and business performance to deliver actionable intelligence that drives decisions.",
+      "capabilities": [
+        {
+          "capability": "Market trend analysis & forecasting"
+        },
+        {
+          "capability": "Customer behaviour & sentiment analysis"
+        },
+        {
+          "capability": "Financial performance modelling"
+        },
+        {
+          "capability": "Competitor benchmarking & tracking"
+        },
+        {
+          "capability": "Custom intelligence dashboards & reporting"
+        }
+      ]
+    }
+  ]
+}

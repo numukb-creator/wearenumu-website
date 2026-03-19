@@ -1,0 +1,127 @@
+/* Numu Consulting 2026 — Base Reset & Design Tokens */
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  /* Brand Colors — Purple Palette */
+  --color-bg-primary: #0A0E1A;
+  --color-bg-card: rgba(26, 31, 46, 0.6);
+  --color-bg-navy: #1A1F2E;
+  --color-bg-elevated: rgba(26, 31, 46, 0.8);
+  --color-purple-light: #C084FC;
+  --color-purple-medium: #A78BFA;
+  --color-purple-primary: #8B5CF6;
+  --color-purple-deep: #7C3AED;
+  --color-purple-dark: #6B21A8;
+  --color-text-white: #FFFFFF;
+  --color-text-light: #F3F4F6;
+  --color-text-medium: #E5E7EB;
+  --color-text-subtle: #D1D5DB;
+  --color-text-muted: #9CA3AF;
+  --color-text-label: #6B7280;
+  --color-success: #2A5934;
+  --color-success-light: #34D399;
+  --color-warning: #D4A574;
+  --color-info: #6366F1;
+  --color-error: #DC2626;
+  --color-border: rgba(139, 92, 246, 0.15);
+  --color-border-hover: rgba(139, 92, 246, 0.3);
+
+  /* Gradients */
+  --gradient-purple: linear-gradient(135deg, #6B21A8 0%, #C084FC 100%);
+  --gradient-cta: linear-gradient(135deg, #7C3AED 0%, #6366F1 100%);
+  --gradient-cta-hover: linear-gradient(135deg, #8B5CF6 0%, #818CF8 100%);
+  --gradient-card-border: linear-gradient(135deg, rgba(139,92,246,0.3) 0%, rgba(99,102,241,0.1) 100%);
+
+  /* Typography */
+  --font-primary: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --text-xs: clamp(0.75rem, 0.7rem + 0.15vw, 0.8125rem);
+  --text-sm: clamp(0.8125rem, 0.78rem + 0.15vw, 0.875rem);
+  --text-base: clamp(0.9375rem, 0.9rem + 0.15vw, 1rem);
+  --text-lg: clamp(1.0625rem, 1rem + 0.25vw, 1.125rem);
+  --text-xl: clamp(1.25rem, 1.1rem + 0.5vw, 1.5rem);
+  --text-2xl: clamp(1.5rem, 1.2rem + 1vw, 2rem);
+  --text-3xl: clamp(1.875rem, 1.4rem + 1.5vw, 2.5rem);
+  --text-4xl: clamp(2.25rem, 1.5rem + 2.5vw, 3.5rem);
+  --text-hero: clamp(2.5rem, 1.5rem + 3.5vw, 4.5rem);
+
+  /* Spacing */
+  --space-1: 4px; --space-2: 8px; --space-3: 12px; --space-4: 16px;
+  --space-5: 20px; --space-6: 24px; --space-8: 32px; --space-10: 40px;
+  --space-12: 48px; --space-16: 64px; --space-20: 80px; --space-24: 96px;
+  --space-32: 128px;
+
+  /* Radius */
+  --radius-sm: 6px;
+  --radius-md: 8px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius-full: 9999px;
+
+  /* Shadows */
+  --shadow-card: 0 10px 30px rgba(0,0,0,0.3), 0 1px 3px rgba(0,0,0,0.2);
+  --shadow-button-hover: 0 6px 20px rgba(124,58,237,0.4);
+  --shadow-glow: 0 0 40px rgba(139,92,246,0.15);
+
+  /* Layout */
+  --max-width: 1200px;
+  --nav-height: 72px;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-family: var(--font-primary);
+  font-size: var(--text-base);
+  line-height: 1.6;
+  color: var(--color-text-light);
+  background: var(--color-bg-primary);
+  overflow-x: hidden;
+}
+
+img, video { max-width: 100%; height: auto; display: block; }
+a { color: var(--color-purple-light); text-decoration: none; transition: color 0.2s; }
+a:hover { color: var(--color-purple-medium); }
+button { cursor: pointer; font-family: inherit; border: none; background: none; }
+ul, ol { list-style: none; }
+h1, h2, h3, h4, h5, h6 { line-height: 1.15; font-weight: 700; color: var(--color-text-white); }
+
+/* Utility Classes */
+.container { max-width: var(--max-width); margin: 0 auto; padding: 0 var(--space-6); }
+.section-label {
+  font-size: var(--text-xs);
+  font-weight: 700;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--color-purple-light);
+  margin-bottom: var(--space-4);
+}
+.section-padding { padding: clamp(var(--space-16), 8vw, var(--space-32)) 0; }
+
+/* Scroll Reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(24px);
+  transition: opacity 0.7s cubic-bezier(0.16, 1, 0.3, 1), transform 0.7s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.reveal.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Selection */
+::selection { background: rgba(139, 92, 246, 0.3); color: var(--color-text-white); }
+
+/* Scrollbar */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: var(--color-bg-primary); }
+::-webkit-scrollbar-thumb { background: var(--color-purple-dark); border-radius: 3px; }
+
+@media (prefers-reduced-motion: reduce) {
+  .reveal { opacity: 1; transform: none; transition: none; }
+  html { scroll-behavior: auto; }
+}

@@ -1,0 +1,97 @@
+{
+  "page_title": "Growth Intelligence Audit™",
+  "page_subtitle": "Discover Exactly Where AI Can Transform Your Business",
+  "introduction": "Our Growth Intelligence Audit™ is a comprehensive analysis of your operations, revealing precisely where AI can save time, reduce costs, and accelerate growth. You'll receive a detailed roadmap with prioritised recommendations, ROI projections, and an Ethics Gate™ compliance assessment.",
+  "tiers": [
+    {
+      "name": "Essentials Audit",
+      "price": "£497",
+      "description": "Perfect for businesses exploring AI. Get a clear picture of your AI readiness and top-priority opportunities.",
+      "features": [
+        {
+          "feature": "2-hour discovery session"
+        },
+        {
+          "feature": "AI readiness assessment"
+        },
+        {
+          "feature": "Top 5 automation opportunities identified"
+        },
+        {
+          "feature": "Basic ROI projection"
+        },
+        {
+          "feature": "Ethics Gate™ compatibility check"
+        },
+        {
+          "feature": "30-minute debrief call"
+        }
+      ],
+      "cta_text": "Book Essentials Audit"
+    },
+    {
+      "name": "Professional Audit",
+      "price": "£997",
+      "description": "Our most popular audit. Comprehensive analysis with a full implementation roadmap and detailed ROI modelling.",
+      "features": [
+        {
+          "feature": "Everything in Essentials, plus:"
+        },
+        {
+          "feature": "Full operational workflow analysis"
+        },
+        {
+          "feature": "Detailed implementation roadmap"
+        },
+        {
+          "feature": "Comprehensive ROI modelling"
+        },
+        {
+          "feature": "Digital employee recommendations"
+        },
+        {
+          "feature": "Ethics Gate™ governance plan"
+        },
+        {
+          "feature": "60-minute strategy session"
+        },
+        {
+          "feature": "30-day email support"
+        }
+      ],
+      "cta_text": "Book Professional Audit"
+    },
+    {
+      "name": "Enterprise Audit",
+      "price": "£1,497",
+      "description": "For established businesses ready for full AI transformation. Includes competitive intelligence and board-ready reporting.",
+      "features": [
+        {
+          "feature": "Everything in Professional, plus:"
+        },
+        {
+          "feature": "Competitive AI landscape analysis"
+        },
+        {
+          "feature": "Multi-department workflow mapping"
+        },
+        {
+          "feature": "Board-ready transformation report"
+        },
+        {
+          "feature": "Custom AI workforce design"
+        },
+        {
+          "feature": "Priority implementation timeline"
+        },
+        {
+          "feature": "Quarterly review included"
+        },
+        {
+          "feature": "90-day premium support"
+        }
+      ],
+      "cta_text": "Book Enterprise Audit"
+    }
+  ]
+}

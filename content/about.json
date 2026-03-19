@@ -1,0 +1,27 @@
+{
+  "page_title": "About Numu",
+  "page_subtitle": "The UK's First Ethical AI Workforce Consultancy",
+  "story": "Numu (نمو) means 'growth' in Arabic. Founded by Hasan Sarwar, Numu was born from a simple conviction: AI should grow businesses without compromising their values.\n\nAfter years in digital marketing and growth strategy, Hasan saw a gap — businesses were adopting AI tools without ethical frameworks, and the results were often misaligned with their values. Numu was created to bridge this gap.\n\nWe don't just deploy AI tools. We build collaborative AI workforces governed by Ethics Gate™ — our proprietary framework rooted in Islamic ethical principles of truthfulness (Sidq), trustworthiness (Amanah), and justice ('Adl).",
+  "mission": "To make ethical AI accessible to every UK SME — proving that growth and integrity are not competing goals.",
+  "vision": "A world where AI amplifies human potential without compromising human values.",
+  "values": [
+    {
+      "title": "Respect (Ihtiram)",
+      "description": "We treat every client, their data, and their team with the highest respect."
+    },
+    {
+      "title": "Transparency (Shafafiyyah)",
+      "description": "No black boxes. Every AI decision is explainable and auditable."
+    },
+    {
+      "title": "Growth (Numu)",
+      "description": "Sustainable, ethical growth that benefits all stakeholders."
+    },
+    {
+      "title": "Excellence (Itqan)",
+      "description": "We pursue mastery in everything we do, from code to client relationships."
+    }
+  ],
+  "founder_name": "Hasan Sarwar",
+  "founder_bio": "Hasan Sarwar is the founder of Numu Consulting. With a background spanning digital marketing, growth strategy, and ethical AI governance, he built Numu to prove that businesses can achieve exceptional growth without compromising their values.\n\nHasan runs an internal fleet of 18 AI agents and 4 digital employees — the same system he deploys for clients. He believes in eating his own cooking."
+}

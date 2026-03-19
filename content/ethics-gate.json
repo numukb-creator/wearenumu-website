@@ -1,0 +1,70 @@
+{
+  "page_title": "Ethics Gate™",
+  "page_subtitle": "Every AI Decision, Ethically Governed",
+  "introduction": "Ethics Gate™ is Numu's proprietary governance framework rooted in Islamic ethical principles. Before any AI recommendation reaches your business, it passes through three pillars of ethical validation — ensuring truthfulness, trustworthiness, and justice in every output.",
+  "pillars": [
+    {
+      "arabic_name": "صدق",
+      "english_name": "Sidq",
+      "translation": "Truthfulness",
+      "description": "Every AI output is verified for factual accuracy and honest representation. No hallucinations. No misleading claims. No inflated metrics.",
+      "checks": [
+        {
+          "check": "Data source verification against primary sources"
+        },
+        {
+          "check": "Cross-referencing outputs with industry benchmarks"
+        },
+        {
+          "check": "Hallucination detection and flagging protocol"
+        },
+        {
+          "check": "Transparent confidence scoring on all recommendations"
+        }
+      ]
+    },
+    {
+      "arabic_name": "أمانة",
+      "english_name": "Amanah",
+      "translation": "Trustworthiness",
+      "description": "Your data is treated as a sacred trust. Full GDPR compliance. Zero exploitation. Complete transparency in how AI processes your information.",
+      "checks": [
+        {
+          "check": "GDPR-compliant data processing at every stage"
+        },
+        {
+          "check": "Encrypted storage with access audit trails"
+        },
+        {
+          "check": "No third-party data sharing without explicit consent"
+        },
+        {
+          "check": "Regular trustworthiness audits and reporting"
+        }
+      ]
+    },
+    {
+      "arabic_name": "عدل",
+      "english_name": "'Adl",
+      "translation": "Justice",
+      "description": "AI recommendations are checked for bias, fairness, and equitable impact. No demographic targeting. No manipulative tactics. Fair treatment for all stakeholders.",
+      "checks": [
+        {
+          "check": "Bias detection across demographic dimensions"
+        },
+        {
+          "check": "Fair pricing and recommendation algorithms"
+        },
+        {
+          "check": "Stakeholder impact assessment before deployment"
+        },
+        {
+          "check": "Regular fairness audits with documented outcomes"
+        }
+      ]
+    }
+  ],
+  "process_description": "Every AI workflow passes through all three pillars before any recommendation reaches your business. If any pillar flags an issue, the output is quarantined, reviewed, and either corrected or rejected. This is not a checkbox exercise — it's a living governance system that evolves with your business.",
+  "cta_text": "Get Your Free Ethics Audit →",
+  "cta_url": "#/free-ethics-audit"
+}

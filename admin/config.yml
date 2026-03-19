@@ -1,0 +1,342 @@
+backend:
+  name: github
+  repo: wearenumu/website
+  branch: main
+  base_url: https://decap-oauth.netlify.app
+
+publish_mode: editorial_workflow
+media_folder: "assets/uploads"
+public_folder: "/assets/uploads"
+
+site_url: https://wearenumu.com
+display_url: https://wearenumu.com
+
+slug:
+  encoding: "ascii"
+  clean_accents: true
+
+collections:
+
+  # ===== SITE SETTINGS =====
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - name: "general"
+        label: "General Settings"
+        file: "content/settings.json"
+        fields:
+          - { name: "site_title", label: "Site Title", widget: "string", default: "Numu Consulting" }
+          - { name: "site_description", label: "Meta Description", widget: "text" }
+          - { name: "tagline", label: "Tagline", widget: "string" }
+          - { name: "email", label: "Contact Email", widget: "string" }
+          - { name: "phone", label: "Phone Number", widget: "string", required: false }
+          - { name: "linkedin_url", label: "LinkedIn URL", widget: "string" }
+          - { name: "instagram_url", label: "Instagram URL", widget: "string" }
+          - { name: "calendly_url", label: "Calendly Booking URL", widget: "string" }
+
+  # ===== HOME PAGE =====
+  - name: "home"
+    label: "Home Page"
+    files:
+      - name: "hero"
+        label: "Hero Section"
+        file: "content/home-hero.json"
+        fields:
+          - { name: "eyebrow", label: "Eyebrow Text", widget: "string" }
+          - { name: "headline_line1", label: "Headline Line 1", widget: "string" }
+          - { name: "headline_line2", label: "Headline Line 2 (gradient)", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - { name: "cta_primary_text", label: "Primary CTA Text", widget: "string" }
+          - { name: "cta_primary_url", label: "Primary CTA URL", widget: "string" }
+          - { name: "cta_secondary_text", label: "Secondary CTA Text", widget: "string" }
+          - { name: "cta_secondary_url", label: "Secondary CTA URL", widget: "string" }
+          - name: "trust_badges"
+            label: "Trust Badges"
+            widget: "list"
+            fields:
+              - { name: "text", label: "Badge Text", widget: "string" }
+
+      - name: "stats"
+        label: "Stats Section"
+        file: "content/home-stats.json"
+        fields:
+          - name: "stats"
+            label: "Statistics"
+            widget: "list"
+            fields:
+              - { name: "number", label: "Number/Value", widget: "string" }
+              - { name: "label", label: "Label", widget: "string" }
+              - { name: "sublabel", label: "Sublabel", widget: "string", required: false }
+
+      - name: "services_overview"
+        label: "Services Overview"
+        file: "content/home-services.json"
+        fields:
+          - { name: "section_eyebrow", label: "Section Eyebrow", widget: "string" }
+          - { name: "section_title", label: "Section Title", widget: "string" }
+          - { name: "section_description", label: "Section Description", widget: "text" }
+          - name: "services"
+            label: "Services"
+            widget: "list"
+            fields:
+              - { name: "icon", label: "Icon (emoji or name)", widget: "string" }
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - { name: "link_url", label: "Link URL", widget: "string" }
+
+  # ===== ETHICS GATE PAGE =====
+  - name: "ethics_gate"
+    label: "Ethics Gate"
+    files:
+      - name: "ethics_gate_content"
+        label: "Ethics Gate Content"
+        file: "content/ethics-gate.json"
+        fields:
+          - { name: "page_title", label: "Page Title", widget: "string" }
+          - { name: "page_subtitle", label: "Page Subtitle", widget: "text" }
+          - { name: "introduction", label: "Introduction", widget: "markdown" }
+          - name: "pillars"
+            label: "Ethics Pillars"
+            widget: "list"
+            fields:
+              - { name: "arabic_name", label: "Arabic Name", widget: "string" }
+              - { name: "english_name", label: "English Name", widget: "string" }
+              - { name: "translation", label: "Translation", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - name: "checks"
+                label: "Governance Checks"
+                widget: "list"
+                fields:
+                  - { name: "check", label: "Check", widget: "string" }
+          - { name: "process_description", label: "Process Description", widget: "markdown" }
+          - { name: "cta_text", label: "CTA Text", widget: "string" }
+          - { name: "cta_url", label: "CTA URL", widget: "string" }
+
+  # ===== AUDIT PAGE =====
+  - name: "audit"
+    label: "Growth Intelligence Audit"
+    files:
+      - name: "audit_content"
+        label: "Audit Content"
+        file: "content/audit.json"
+        fields:
+          - { name: "page_title", label: "Page Title", widget: "string" }
+          - { name: "page_subtitle", label: "Page Subtitle", widget: "text" }
+          - { name: "introduction", label: "Introduction", widget: "markdown" }
+          - name: "tiers"
+            label: "Audit Tiers"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Tier Name", widget: "string" }
+              - { name: "price", label: "Price", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - name: "features"
+                label: "Features"
+                widget: "list"
+                fields:
+                  - { name: "feature", label: "Feature", widget: "string" }
+              - { name: "cta_text", label: "CTA Text", widget: "string" }
+
+  # ===== SERVICES PAGE =====
+  - name: "services_page"
+    label: "Services"
+    files:
+      - name: "services_content"
+        label: "Services Content"
+        file: "content/services.json"
+        fields:
+          - { name: "page_title", label: "Page Title", widget: "string" }
+          - { name: "page_subtitle", label: "Page Subtitle", widget: "text" }
+          - name: "packages"
+            label: "Service Packages"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Package Name", widget: "string" }
+              - { name: "price", label: "Price", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - name: "features"
+                label: "Features"
+                widget: "list"
+                fields:
+                  - { name: "feature", label: "Feature", widget: "string" }
+              - { name: "cta_text", label: "CTA Text", widget: "string" }
+              - { name: "highlighted", label: "Highlighted?", widget: "boolean", default: false }
+
+  # ===== ABOUT PAGE =====
+  - name: "about"
+    label: "About Page"
+    files:
+      - name: "about_content"
+        label: "About Content"
+        file: "content/about.json"
+        fields:
+          - { name: "page_title", label: "Page Title", widget: "string" }
+          - { name: "page_subtitle", label: "Page Subtitle", widget: "text" }
+          - { name: "story", label: "Our Story", widget: "markdown" }
+          - { name: "mission", label: "Mission Statement", widget: "text" }
+          - { name: "vision", label: "Vision Statement", widget: "text" }
+          - name: "values"
+            label: "Company Values"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Value Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+          - { name: "founder_name", label: "Founder Name", widget: "string" }
+          - { name: "founder_bio", label: "Founder Bio", widget: "markdown" }
+
+  # ===== DIGITAL WORKFORCE =====
+  - name: "digital_workforce"
+    label: "Digital Workforce"
+    files:
+      - name: "workforce_content"
+        label: "Digital Workforce Content"
+        file: "content/digital-workforce.json"
+        fields:
+          - { name: "page_title", label: "Page Title", widget: "string" }
+          - { name: "page_subtitle", label: "Page Subtitle", widget: "text" }
+          - name: "employees"
+            label: "Digital Employees"
+            widget: "list"
+            fields:
+              - { name: "name", label: "Name", widget: "string" }
+              - { name: "role", label: "Role", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+              - name: "capabilities"
+                label: "Capabilities"
+                widget: "list"
+                fields:
+                  - { name: "capability", label: "Capability", widget: "string" }
+
+  # ===== CASE STUDIES =====
+  - name: "case_studies"
+    label: "Case Studies"
+    folder: "content/case-studies"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "client", label: "Client/Industry", widget: "string" }
+      - { name: "challenge", label: "Challenge", widget: "text" }
+      - { name: "solution", label: "Solution", widget: "markdown" }
+      - { name: "results", label: "Results", widget: "markdown" }
+      - { name: "testimonial", label: "Testimonial Quote", widget: "text", required: false }
+      - { name: "testimonial_author", label: "Testimonial Author", widget: "string", required: false }
+
+  # ===== BLOG POSTS =====
+  - name: "blog"
+    label: "Blog Posts"
+    folder: "content/blog"
+    create: true
+    slug: "{{year}}-{{month}}-{{slug}}"
+    fields:
+      - { name: "title", label: "Title", widget: "string" }
+      - { name: "date", label: "Publish Date", widget: "datetime" }
+      - { name: "author", label: "Author", widget: "string", default: "Hasan Sarwar" }
+      - { name: "category", label: "Category", widget: "select", options: ["AI Strategy", "Ethics & Governance", "Case Studies", "Industry Insights", "Growth Tips"] }
+      - { name: "excerpt", label: "Excerpt", widget: "text" }
+      - { name: "body", label: "Body", widget: "markdown" }
+      - { name: "featured_image", label: "Featured Image", widget: "image", required: false }
+
+  # ===== FAQ =====
+  - name: "faq"
+    label: "FAQ"
+    files:
+      - name: "faq_content"
+        label: "FAQ Content"
+        file: "content/faq.json"
+        fields:
+          - name: "questions"
+            label: "Questions"
+            widget: "list"
+            fields:
+              - { name: "question", label: "Question", widget: "string" }
+              - { name: "answer", label: "Answer", widget: "text" }
+
+  # ===== INDUSTRY SOLUTIONS =====
+  - name: "solutions"
+    label: "Industry Solutions"
+    files:
+      - name: "marketing_agencies"
+        label: "Marketing Agencies"
+        file: "content/solutions-marketing.json"
+        fields:
+          - { name: "industry", label: "Industry Name", widget: "string" }
+          - { name: "headline", label: "Headline", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - name: "pain_points"
+            label: "Pain Points"
+            widget: "list"
+            fields:
+              - { name: "point", label: "Pain Point", widget: "string" }
+          - name: "solutions"
+            label: "Solutions"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+      - name: "accounting_firms"
+        label: "Accounting Firms"
+        file: "content/solutions-accounting.json"
+        fields:
+          - { name: "industry", label: "Industry Name", widget: "string" }
+          - { name: "headline", label: "Headline", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - name: "pain_points"
+            label: "Pain Points"
+            widget: "list"
+            fields:
+              - { name: "point", label: "Pain Point", widget: "string" }
+          - name: "solutions"
+            label: "Solutions"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+      - name: "law_firms"
+        label: "Law Firms"
+        file: "content/solutions-law.json"
+        fields:
+          - { name: "industry", label: "Industry Name", widget: "string" }
+          - { name: "headline", label: "Headline", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - name: "pain_points"
+            label: "Pain Points"
+            widget: "list"
+            fields:
+              - { name: "point", label: "Pain Point", widget: "string" }
+          - name: "solutions"
+            label: "Solutions"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+      - name: "charities"
+        label: "Charities & Non-Profits"
+        file: "content/solutions-charities.json"
+        fields:
+          - { name: "industry", label: "Industry Name", widget: "string" }
+          - { name: "headline", label: "Headline", widget: "string" }
+          - { name: "description", label: "Description", widget: "text" }
+          - name: "pain_points"
+            label: "Pain Points"
+            widget: "list"
+            fields:
+              - { name: "point", label: "Pain Point", widget: "string" }
+          - name: "solutions"
+            label: "Solutions"
+            widget: "list"
+            fields:
+              - { name: "title", label: "Title", widget: "string" }
+              - { name: "description", label: "Description", widget: "text" }
+
+  # ===== TESTIMONIALS =====
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "content/testimonials"
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - { name: "quote", label: "Quote", widget: "text" }
+      - { name: "author", label: "Author Name", widget: "string" }
+      - { name: "role", label: "Role/Company", widget: "string" }
+      - { name: "featured", label: "Featured on Homepage?", widget: "boolean", default: false }

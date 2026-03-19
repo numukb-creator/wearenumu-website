@@ -1,0 +1,24 @@
+{
+  "stats": [
+    {
+      "number": "53+",
+      "label": "Hours Saved",
+      "sublabel": "Per Week"
+    },
+    {
+      "number": "12:1",
+      "label": "Average ROI",
+      "sublabel": "Within 90 Days"
+    },
+    {
+      "number": "18",
+      "label": "AI Agents",
+      "sublabel": "Running Internally"
+    },
+    {
+      "number": "4",
+      "label": "Digital Employees",
+      "sublabel": "Collaborative AI Team"
+    }
+  ]
+}

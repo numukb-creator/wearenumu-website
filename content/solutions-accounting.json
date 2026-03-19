@@ -1,0 +1,33 @@
+{
+  "industry": "Accounting Firms",
+  "headline": "Automate Compliance, Focus on Advisory",
+  "description": "Let AI handle data entry, reconciliation, and routine compliance — so your accountants can deliver high-value advisory services.",
+  "pain_points": [
+    {
+      "point": "Manual data entry consumes billable hours"
+    },
+    {
+      "point": "Tax deadline pressure creates burnout"
+    },
+    {
+      "point": "Clients expect faster turnaround times"
+    },
+    {
+      "point": "Compliance monitoring is resource-intensive"
+    }
+  ],
+  "solutions": [
+    {
+      "title": "Automated Data Processing",
+      "description": "Sophia processes invoices, receipts, and bank feeds automatically — reducing manual entry by up to 80%."
+    },
+    {
+      "title": "Compliance Monitoring",
+      "description": "James tracks regulatory changes and flags compliance issues before they become problems, keeping your clients protected."
+    },
+    {
+      "title": "Client Reporting Automation",
+      "description": "Generate management accounts, VAT summaries, and financial reports automatically with Ethics Gate™ verified accuracy."
+    }
+  ]
+}
