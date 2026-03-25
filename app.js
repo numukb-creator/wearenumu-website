@@ -26,6 +26,7 @@
     '/contact':                   'page-contact',
     '/privacy-policy':            'page-privacy-policy',
     '/services/ai-computer-use':  'page-ai-computer-use',
+    '/services/app-growth-sprint': 'page-app-growth-sprint',
   };
 
   /* ── Router ── */
