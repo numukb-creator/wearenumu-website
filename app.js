@@ -28,6 +28,11 @@
     '/services/ai-computer-use':  'page-ai-computer-use',
     '/services/app-growth-sprint': 'page-app-growth-sprint',
     '/ihsaan-flow':               'page-ihsaan-flow',
+    '/case-studies/golpo-digital':  'page-cs-golpo',
+    '/case-studies/ruh-art':        'page-cs-ruh-art',
+    '/case-studies/ethica-group':   'page-cs-ethica',
+    '/case-studies/nova-charity':   'page-cs-nova',
+    '/case-studies/ibt-education':  'page-cs-ibt',
   };
 
   /* ── Router ── */
