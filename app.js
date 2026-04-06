@@ -160,7 +160,7 @@
       var pkg, pkgCost;
       if (total <= 15) { pkg = 'Starter (£8,000)'; pkgCost = 8000; }
       else if (total <= 30) { pkg = 'Growth (£18,000)'; pkgCost = 18000; }
-      else { pkg = 'Enterprise (£45,000)'; pkgCost = 45000; }
+      else { pkg = 'Enterprise (£35,000)'; pkgCost = 35000; }
 
       var roi = pkgCost > 0 ? (annualSaving / pkgCost).toFixed(1) : 0;
 
