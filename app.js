@@ -27,6 +27,7 @@
     '/privacy-policy':            'page-privacy-policy',
     '/services/ai-computer-use':  'page-ai-computer-use',
     '/services/app-growth-sprint': 'page-app-growth-sprint',
+    '/services/outcome-sprints':   'page-outcome-sprints',
     '/ihsaan-flow':               'page-ihsaan-flow',
     '/case-studies/golpo-digital':  'page-cs-golpo',
     '/case-studies/ruh-art':        'page-cs-ruh-art',
